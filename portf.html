@@ -1,0 +1,173 @@
+<style>
+    body{
+ background-image:url("https://images.pexels.com/photos/5656098/pexels-photo-5656098.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+ background-size: cover;
+   width: 100%;
+  height: 100%;
+}
+#photo{
+  width:25%;
+  height:150px;
+  border-radius:50%;
+  
+}
+
+#ff:hover{
+  transform: scale(1.1);
+  color:blue;
+  text-shadow:.5px .5px black;
+}
+.photo{
+  width:40%;
+  border-radius:50%;
+}
+.photo:hover{
+  transform: scale(1.1);
+}
+.logo{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+}
+.logo:hover{
+  transform: scale(1.1);
+}
+
+#t{
+  font-family:Cursive;
+  font-weight: 200;
+  font-size: 2em;
+  margin-top:50vh;
+  text-align:center;
+}
+#subt{
+  font-family:Palatino;
+   font-size: 1em;
+  font-weight: 200;
+  text-align:center;
+}
+.container{
+ height:50vh;
+ margin-left:-10px;
+}
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 15px;
+  z-index: 2;
+  background: black;
+  text-align: center;
+  padding: 29px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: grey 3px solid;
+}
+nav a{
+  color:white;
+  text-transform: uppercase;
+  font-weight: 90;
+  font-size: 1em;
+  text-decoration: none; 
+}
+nav a:hover{
+  color: grey;
+}
+#projects{
+   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width:100%;
+  text-align:center;
+  font-family:Garamond;
+}
+#about{
+  display: block;
+   margin-left:70%;
+  padding:30px;
+  text-decoration:none;
+}
+ a{
+   text-decoration: none;
+   color: inherit;
+}
+.ka:hover{
+  transform: scale(1.03);
+  color:grey;
+}
+#connect{
+   margin-left:40%;
+  padding:30px;
+   margin-bottom:25vh;
+}
+@media(max-width:550px){ 
+ nav{
+  padding: 0px;
+  align-items: flex-start;
+  }
+  
+}
+</style>
+
+<body>
+    <div class="container">
+    <nav id="navbar">
+      <a href="#welcome-section">welcome</a>
+      <a href="#projects">projects</a>
+      <a href="#about">about</a>
+      <a href="#connect">connect</a>
+    </nav>
+    <section id="welcome-section">
+      <h1 id="t">Hello, Cyto here</h1>
+      <h2 id="subt">Desktop mode recommended for best experience(mobile)</h2>
+      </section>
+      </div>
+    
+    <section id="projects">
+      <h1>My Projects(click on the icons to visit):</h1>
+      <div class="project-tile">
+        <h3>1. 1st project:</h3>
+        <a href="https://codepen.io/Shivanshsharma/pen/rNmyrQN" target="_blank" title="my first project"><img class="photo" src="https://i.pinimg.com/originals/58/3e/16/583e16c9b4105cceaef92a9d07b509ec.jpg"></a>
+        
+      </div>
+      
+      <div class="project-tile">
+        <h3>2.Technical Documentation Page:</h3>
+        <a href="https://codepen.io/Shivanshsharma/pen/ZEKKGgj" target="_blank" title="Technical Documentation Page"><img class="photo" src="https://thumbs.dreamstime.com/b/javascript-logo-editorial-illustrative-white-background-javascript-logo-editorial-illustrative-white-background-eps-download-208329455.jpg"></a>
+        
+      </div>
+        
+      <div class="project-tile">
+        <h3>3. For BMW:</h3>
+        <a href="https://codepen.io/Shivanshsharma/pen/NWjpZwM?editors=1100" target="_blank" title="BMW project"><img class="photo" src="https://www.carlogos.org/car-logos/bmw-logo-2020-grey.png"></a>
+        
+      </div>
+      
+      <div class="project-tile">
+        <h3>4. Survey form:</h3>
+        <a href="https://codepen.io/Shivanshsharma/pen/zYwZmxp" target="_blank" title="survey form"><img class="photo" src="https://thumbs.dreamstime.com/b/document-pen-flat-icon-round-colorful-button-form-circular-vector-sign-style-design-95232702.jpg"></a>
+      </div>
+   </section>
+    
+    <section id="about">
+      <h1>About me:</h1>
+      <p class="ka"><a href="https://www.linkedin.com/in/shivansh-sharma-489247188/" target="_blank" title="Linkedin">B-Tech(ECE) student</a></p>
+      <p class="ka"><a href="https://en.wikipedia.org/wiki/Lovely_Professional_University" target="_blank" title="LPU wiki">Studying in LPU</a></p>
+      <p class="ka"><a href="https://www.pexels.com/@sincegameon" target="_blank" title="pexels">I also do some photography stuff(tap here)</a></p>
+      <p class="ka"><a href="https://linktr.ee/ShivanshSharma" target="_blank" title="connect">Few more(tap here)</a></p>
+      
+    </section>
+    
+    <section id="connect">
+      <h2>Lets connect?</h2>
+       <a href="https://www.pexels.com/@sincegameon" target="_blank" title="pexels"><img class="logo" src="https://theme.zdassets.com/theme_assets/9028340/1e73e5cb95b89f1dce8b59c5236ca1fc28c7113b.png"></a>
+      <a href="https://open.spotify.com/user/r46m4zgy17sua6zw9lexm6cjo?si=5E1Gdd-PSM-vuDJVWCAzMg&nd=1" target="_blank" title="spotify"><img class="logo" src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png"></a>
+      <a href="https://www.linkedin.com/in/shivansh-sharma-489247188/" target="_blank" title="Linkedin"><img class="logo" src="https://cdn.iconscout.com/icon/free/png-512/linkedin-circle-1868976-1583140.png"></a>
+      
+    </section>
+    
+  </body>
+
